@@ -1,3 +1,4 @@
+// variables derived from ec2/instance.tf
 variable "ec2_count" {
     default = "1"
 }

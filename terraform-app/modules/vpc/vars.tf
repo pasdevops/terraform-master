@@ -6,7 +6,7 @@ variable "vpc_cidr" {
 variable "tennancy" {
   default = "dedicated"
 }
-variable "vpc_id" {
+variable  {
  
 }
 variable "subnet_cidr" {

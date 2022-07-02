@@ -14,3 +14,10 @@ resource "aws_subnet" "ocelot-public-subnet" {
     Name = "ocelot-subnet-subnet"
   }
 }
+output "vpc_id" {
+  value = "${aws_vpc.main.id}"
+}
+output "subnet_id" {
+  value = "${aws_subnet.main.id}"
+}
+ Outside MODULES, anything you want to ACCESS, define them as OUTPUT. 
